@@ -1,0 +1,13 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div{
+    max-width: 400px;
+    background-color: #f7f5cd;
+    display: flex;
+    flex-direction: column ;
+    padding: 20px;
+}

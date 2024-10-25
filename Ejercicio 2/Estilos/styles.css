@@ -1,29 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .Menu{
-    margin: 200px;
-    line-height: 75px;
+    
+    line-height: 30px;
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    max-width: 600px;
+    margin: 2rem auto;
 }
 .lista{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #d1d1d1;
-    padding: 10px;
-    margin-right: 20px;
-    margin-bottom: 0.5rem;
+    padding: 1rem   ;
+    margin-bottom: 0.4rem;
 
 }
-a{
+
+.lista a{
+    padding: 0.5rem 1rem;
+    justify-content: space-around;
     text-decoration: none;
     background-color: #ffffff;
     cursor: pointer;
-    display: flex;
-}
-.lista a{
-    padding: 0.5rem 5rem;
-    justify-content: space-between;
 }
 span{
     padding: 0.5rem 3rem;
